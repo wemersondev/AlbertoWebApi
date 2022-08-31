@@ -29,5 +29,11 @@ namespace AlbertoWebApi.Controllers
             })
             .ToArray();
         }
+
+        [HttpPost(Name = "PostWeatherForecast")]
+        public void Post(WeatherForecast weatherForecast)
+        {
+            
+        }
     }
 }
